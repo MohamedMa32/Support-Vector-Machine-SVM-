@@ -1,0 +1,32 @@
+# 1. ملفات بايثون المؤقتة والكاش (Python Byte-code & Cache)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 2. البيئات الافتراضية (Virtual Environments)
+env/
+venv/
+ENV/
+.venv/
+
+# 3. ملفات كراسات Jupyter و Colab المؤقتة
+.ipynb_checkpoints/
+
+# 4. النماذج المحفوظة ذات الأحجام الكبيرة (Trained Models)
+*.pkl
+*.joblib
+*.h5
+*.onnx
+
+# 5. البيانات (Datasets) - فك التعليق عن الإمتداد إذا كانت الملفات ضخمة
+# *.csv
+# data/
+
+# 6. إعدادات المحررات والبيئة (IDEs & Environment Secrets)
+.vscode/
+.idea/
+.env
+
+# 7. ملفات نظام التشغيل المؤقتة (OS Files)
+.DS_Store
+Thumbs.db
